@@ -1,0 +1,53 @@
+// This is where you can import other stylesheets or write your scss code
+
+@import 'typography';
+
+/* 
+===========
+borders
+===========
+ */
+$enable-rounded: false;
+
+/* 
+===========
+colors
+===========
+ */
+$secondary: rgb(122, 68, 254);
+$dark: black;
+
+/* 
+===========
+boostrap
+===========
+ */
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.jumbotron {
+  color: white;
+  background: url(/src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.container-ideas-icon {
+  height: 60px;
+  width: 60px;
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: $gray-100;
+  margin: 0 auto;
+}
+
+.ideas-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.scrollable-container {
+  overflow: hidden;
+  overflow-x: hidden;
+}
