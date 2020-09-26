@@ -9475,7 +9475,7 @@ h3 {
 
 .scrollable-container {
   overflow: hidden;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 /*# sourceMappingURL=main.css.map */
